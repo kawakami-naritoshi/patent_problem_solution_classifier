@@ -18,7 +18,6 @@ RATE_LIMIT_DELAY = 2.5  # 秒間隔
 
 # メインヘッダー
 st.title("🔬 課題分類・解決手段分類あてはめアプリ")
-st.subheader("- AI自動分類マッピング")
 
 # 使い方説明
 with st.expander("📖 使い方説明", expanded=True):
