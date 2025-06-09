@@ -22,7 +22,7 @@ st.subheader("- AI自動分類マッピング")
 
 # 使い方説明
 with st.expander("📖 使い方説明", expanded=True):
-    st.markdown("### 🎯 PatentScope AIについて")
+    st.markdown("### 🎯 課題分類・解決手段分類あてはめアプリについて")
     st.markdown("AI技術を活用した課題分類・解決手段分類あてはめアプリです。膨大な特許データを自動的に課題分類と解決手段分類に整理します。")
     
     st.markdown("### 📋 使用手順")
