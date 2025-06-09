@@ -17,13 +17,13 @@ st.set_page_config(
 RATE_LIMIT_DELAY = 2.5  # 秒間隔
 
 # メインヘッダー
-st.title("🔬 PatentScope AI")
-st.subheader("次世代特許分析プラットフォーム - AI駆動型知財インテリジェンス")
+st.title("🔬 課題分類・解決手段分類あてはめアプリ")
+st.subheader("- AI自動分類マッピング")
 
 # 使い方説明
 with st.expander("📖 使い方説明", expanded=True):
     st.markdown("### 🎯 PatentScope AIについて")
-    st.markdown("AI技術を活用した次世代特許分析プラットフォームです。膨大な特許データを自動的に課題分類と解決手段分類に整理し、知財戦略の意思決定を支援します。")
+    st.markdown("AI技術を活用した課題分類・解決手段分類あてはめアプリです。膨大な特許データを自動的に課題分類と解決手段分類に整理します。")
     
     st.markdown("### 📋 使用手順")
     st.markdown("""
@@ -386,6 +386,7 @@ if uploaded_file is not None:
 
 # フッター
 st.markdown("---")
-st.markdown("### 🔬 PatentScope AI")
+st.markdown("### 🔬 課題分類・解決手段分類あてはめアプリ")
 st.markdown("**Powered by Gemini Intelligence | 次世代特許分析プラットフォーム**")
+st.markdown("Kawakami©2025")
 st.info("⚠️ このシステムを使用する際は、対象技術に適した分類定義の入力とGemini APIの利用規約を確認してください")
